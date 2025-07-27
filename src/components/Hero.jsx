@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import hero1 from "../assets/heroSwiper/hero1.jpg";
+import hero2 from "../assets/heroSwiper/hero2.jpg";
+import hero3 from "../assets/heroSwiper/hero3.jpg";
+import hero4 from "../assets/heroSwiper/hero4.jpg";
 
-const heroImages = [
-  "/src/assets/heroSwiper/hero1.jpg",
-  "/src/assets/heroSwiper/hero2.jpg",
-  "/src/assets/heroSwiper/hero3.jpg",
-  "/src/assets/heroSwiper/hero4.jpg",
-];
+const heroImages = [hero1, hero2, hero3, hero4];
 
 const heroTexts = [
   "Trusted Healthcare, Delivered to Your Doorstep",

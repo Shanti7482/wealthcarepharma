@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaCapsules } from "react-icons/fa6";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "../assets/brandlogo.png";
 
 const navLinks = [
   { name: "Home", href: "#" },
@@ -21,7 +22,7 @@ const Header = () => {
           aria-label="Wealth Care Pharma Home"
         >
           <img
-            src="/src/assets/brandlogo.png"
+            src={logo}
             alt="Wealth Care Pharma Brand Logo"
             className="w-14 h-14  drop-shadow-lg bg-white rounded-full p-1 object-contain"
           />
