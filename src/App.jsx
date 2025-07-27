@@ -1,0 +1,19 @@
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
+import Features from "./components/Features.jsx";
+import Footer from "./components/Footer.jsx";
+import SubFooter from "./components/SubFooter.jsx";
+
+const App = () => {
+  return (
+    <div className="min-h-screen flex flex-col bg-gray-50">
+      <Header />
+      <Hero />
+      <Features />
+      <SubFooter />
+      <Footer />
+    </div>
+  );
+};
+
+export default App;
