@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/brandlogo.png";
 
 const SubFooter = () => {
   return (
@@ -7,7 +8,7 @@ const SubFooter = () => {
         <div className="w-full  lg:w-[25%] p-4">
           <a href="" className="flex flex-row items-center gap-2">
             <img
-              src="/src/assets/brandlogo.png"
+              src={logo}
               alt="Wealth Care Pharma Logo"
               className="w-14 h-14  drop-shadow-lg bg-white rounded-full p-1 object-contain"
             />
