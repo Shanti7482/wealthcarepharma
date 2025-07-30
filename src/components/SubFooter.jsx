@@ -24,7 +24,7 @@ const SubFooter = () => {
           </p>
 
           <a
-            href="<?= base_url('about-us') ?>"
+            href=""
             className="inline-block mt-4 px-6 py-2 text-white rounded-lg 
                     bg-gradient-to-r from-blue-600 to-green-400 
                     hover:from-green-400 hover:to-blue-600 
@@ -108,7 +108,7 @@ const SubFooter = () => {
               </li>
 
               <li className="group relative overflow-hidden w-max cursor-pointer">
-                <a href="<?= base_url('about-us') ?>">
+                <a href="">
                   <span className="group-hover:text-blue-700 transition text-[10px] sm:text-[12px] md:text-[14px] ">
                     ABOUT
                   </span>
@@ -117,7 +117,7 @@ const SubFooter = () => {
                 </a>
               </li>
               <li className="group relative overflow-hidden w-max cursor-pointer">
-                <a href="<?= base_url('contact-us') ?>">
+                <a href="">
                   <span className="group-hover:text-blue-700 transition text-[10px] sm:text-[12px] md:text-[14px] ">
                     SHOP
                   </span>
@@ -127,7 +127,7 @@ const SubFooter = () => {
               </li>
 
               <li className="group relative overflow-hidden w-max cursor-pointer">
-                <a href="<?= base_url('book-appointment'); ?>">
+                <a href="">
                   <span className="group-hover:text-blue-700 transition text-[10px] sm:text-[12px] md:text-[14px] ">
                     PRODUCTS
                   </span>
@@ -137,7 +137,7 @@ const SubFooter = () => {
               </li>
 
               <li className="group relative overflow-hidden w-max cursor-pointer">
-                <a href="<?= base_url(); ?>">
+                <a href="">
                   <span className="group-hover:text-blue-700 transition text-[10px] sm:text-[12px] md:text-[14px] ">
                     CONTACT
                   </span>
@@ -202,13 +202,13 @@ const SubFooter = () => {
             >
               <i className="fab fa-youtube text-xl"></i>
             </a>
-            <a
+            {/* <a
               href="#"
               className="w-8 h-8 flex items-center justify-center bg-neutral-900 text-white rounded-full transition duration-300 hover:bg-white hover:text-black hover:ring-2 hover:ring-black"
               aria-label="X (Twitter)"
             >
               <i className="fab fa-x-twitter text-xl"></i>
-            </a>
+            </a> */}
             <a
               href="#"
               className="w-8 h-8 flex items-center justify-center bg-[#0A66C2] text-white rounded-full transition duration-300 hover:bg-white hover:text-[#0A66C2] hover:ring-2 hover:ring-[#0A66C2]"
@@ -216,13 +216,13 @@ const SubFooter = () => {
             >
               <i className="fab fa-linkedin-in text-xl"></i>
             </a>
-            <a
+            {/* <a
               href="#"
               className="w-8 h-8 flex items-center justify-center bg-[#0088cc] text-white rounded-full transition duration-300 hover:bg-white hover:text-[#0088cc] hover:ring-2 hover:ring-[#0088cc]"
               aria-label="Telegram"
             >
               <i className="fab fa-telegram-plane text-xl"></i>
-            </a>
+            </a> */}
             <a
               href="#"
               className="w-8 h-8 flex items-center justify-center bg-black text-white rounded-full transition duration-300 hover:bg-white hover:text-black hover:ring-2 hover:ring-black"
